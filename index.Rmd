@@ -8,15 +8,26 @@ output:
   bookdown::tufte_html_book:
     toc: true
 documentclass: book
-bibliography: [book.bib, packages.bib]
+#bibliography: [book.bib, packages.bib]
 biblio-style: apalike
 link-citations: yes
 github-repo: rstudio/bookdown-demo
 description: "bookdown"
 ---
 
+```{r setup, include=FALSE}
+library(tufte)
+# invalidate cache when the tufte version changes
+knitr::opts_chunk$set(cache.extra = packageVersion('tufte'))
+options(htmltools.dir.version = FALSE)
+```
 
 # Ten Principles of Economics
+
+
+```{r fig-margin, fig.margin=TRUE, echo=FALSE}
+knitr::include_graphics("imgs/fig1a.jpg")
+```
 
 In this chapter, you will be able to answer the following questions:
 
@@ -28,6 +39,7 @@ In this chapter, you will be able to answer the following questions:
 
 +  What are the principles of how the economy as a whole works?
 
-+  What is the difference between microeconomics \& Macroeconomics?
++  What is the difference between microeconomics and Macroeconomics?
 
-![](imgs/fig1a.jpg)
+`r margin_note("This is a margin note.  Notice that there is no number preceding the note.")`
+
