@@ -1,8 +1,18 @@
 --- 
-title: "Outline"
+title: "Econ 2013: Principles of Macroeconomcs"
 author: "Abel Embaye"
-date: "`r Sys.Date()`"
+date: "`r format(Sys.time(), '%B %d, %Y')`" #date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
+##output: bookdown::gitbook
+output:
+  bookdown::tufte_html_book:
+    toc: true
+documentclass: book
+bibliography: [book.bib, packages.bib]
+biblio-style: apalike
+link-citations: yes
+github-repo: rstudio/bookdown-demo
+description: "bookdown"
 ---
 
 # Down the rabbit-hole
