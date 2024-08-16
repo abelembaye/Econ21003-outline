@@ -15,5 +15,19 @@ github-repo: rstudio/bookdown-demo
 description: "bookdown"
 ---
 
-# Down the rabbit-hole
 
+# Ten Principles of Economics
+
+In this chapter, you will be able to answer the following questions:
+
++  What kinds of questions does economics address?
+
++  What are the principles of how people make decisions? 
+
++  What are the principles of how people interact?
+
++  What are the principles of how the economy as a whole works?
+
++  What is the difference between microeconomics \& Macroeconomics?
+
+![](imgs/fig1a.jpg)
